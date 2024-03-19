@@ -1,0 +1,6 @@
+framework module mealzcore {
+    umbrella header "mealzcore.h"
+
+    export *
+    module * { export * }
+}
