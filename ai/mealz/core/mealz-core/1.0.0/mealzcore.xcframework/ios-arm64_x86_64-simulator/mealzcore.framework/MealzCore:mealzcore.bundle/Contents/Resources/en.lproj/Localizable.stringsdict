@@ -162,5 +162,21 @@
 				<string>%%d items</string>
 			</dict>
 		</dict>
+<key>com_miam_meal_planner_meals_for</key>
+		<dict>
+			<key>NSStringLocalizedFormatKey</key>
+			<string>%#@pluraled@</string>
+			<key>pluraled</key>
+			<dict>
+				<key>NSStringFormatSpecTypeKey</key>
+				<string>NSStringPluralRuleType</string>
+				<key>NSStringFormatValueTypeKey</key>
+				<string>d</string>
+				<key>one</key>
+				<string>%%d meal idea for your budget</string>
+				<key>other</key>
+				<string>%%d meal ideas for your budget</string>
+			</dict>
+		</dict>
 	</dict>
 </plist>

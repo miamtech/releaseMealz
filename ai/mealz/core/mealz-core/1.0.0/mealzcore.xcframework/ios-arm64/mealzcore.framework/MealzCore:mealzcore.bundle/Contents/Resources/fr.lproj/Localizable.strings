@@ -12,9 +12,11 @@
 "com_miam_recipe_number_of_ingredients" = "%d ingrédients";
 "com_miam_recipe_check_basket_preview" = "Voir les produits";
 "com_miam_recipe_flag" = "Idée repas";
+"com_miam_recipe_per_person" = "/pers.";
 "com_miam_details_add_all_products" = "Ajouter tous les produits";
 "com_miam_details_shopping" = "Je fais mes courses";
 "com_miam_details_cooking" = "Je cuisine";
+"com_miam_details_in_my_basket" = "dans mon panier";
 "com_miam_details_continue_shopping" = "Continuer mes courses";
 "com_miam_details_see_more" = "Voir plus d\'idées repas";
 "com_miam_details_legal" = "Mentions légales";
@@ -76,12 +78,15 @@
 "com_miam_item_selector_not_found_subtitle" = "Essayez avec un autre mot-clé.";
 "com_miam_item_selector_empty_title" = "Oups, nous n\'avons pas trouvé de produits de substitutions ";
 "com_miam_item_selector_empty_cta" = "Retour";
+"com_miam_my_basket_recipes" = "Recettes";
+"com_miam_my_basket_products" = "Produits";
 "com_miam_my_meals_meal_added" = "1 repas ajouté";
 "com_miam_my_meals_go_to_catalog" = "Je découvre les recettes";
 "com_miam_my_meals_title" = "Mes repas";
 "com_miam_my_meals_see_products" = "Voir les produits";
 "com_miam_my_meals_products" = "produits";
 "com_miam_my_meals_per_person" = "/pers.";
+"com_miam_my_meals_per_person_text" = "soit %s/pers.";
 "com_miam_preferences_title" = "Mes préférences";
 "com_miam_preferences_cancel" = "Annuler";
 "com_miam_preferences_add_tag" = "Ajouter +";
@@ -130,7 +135,6 @@
 "com_miam_meal_planner_promotion" = "Nos promotions";
 "com_miam_meal_planner_products_added_to_basket" = "Les produits associés ont bien été ajoutés au panier. ";
 "com_miam_meal_planner_discover" = "Découvrez aussi";
-"com_miam_meal_planner_meals_for" = "%d repas pour";
 "com_miam_sponsor_detail_empty_title" = "Oups, nous avons renconter un problème. ";
 "com_miam_sponsor_detail_empty_subtitle" = "Réessayer plus tard";
 "com_miam_sponsor_detail_empty_cta" = "Retour";
