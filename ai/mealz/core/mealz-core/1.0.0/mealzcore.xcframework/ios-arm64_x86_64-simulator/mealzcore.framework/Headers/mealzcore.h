@@ -1913,7 +1913,7 @@ __attribute__((swift_name("BasketEntryRepository")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getBasketEntryForIngredientBasketId:(NSString *)basketId ingredientId:(NSString *)ingredientId completionHandler:(void (^)(MealzcoreBasketEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getBasketEntryForIngredient(basketId:ingredientId:completionHandler:)")));
+- (void)getBasketEntryForIngredientBasketId:(NSString *)basketId ingredientId:(NSString *)ingredientId guests:(int32_t)guests completionHandler:(void (^)(MealzcoreBasketEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getBasketEntryForIngredient(basketId:ingredientId:guests:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -1961,12 +1961,6 @@ __attribute__((swift_name("BasketRepository")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)addRecipesToBasketBasketId:(NSString *)basketId recipeInfos:(NSArray<MealzcoreRecipeInfos *> *)recipeInfos withoutIngredients:(BOOL)withoutIngredients completionHandler:(void (^)(MealzcoreBasket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("addRecipesToBasket(basketId:recipeInfos:withoutIngredients:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getBasketEntryForIngredientIngredientId:(NSString *)ingredientId completionHandler:(void (^)(MealzcoreBasket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getBasketEntryForIngredient(ingredientId:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -3483,6 +3477,7 @@ __attribute__((swift_name("DynamicRecipeDetailFooterViewModel")))
 + (instancetype)new __attribute__((unavailable));
 - (MealzcoreDynamicRecipeDetailFooterContractState *)createInitialState __attribute__((swift_name("createInitialState()")));
 - (void)handleEventEvent:(MealzcoreDynamicRecipeDetailFooterContractEvent *)event __attribute__((swift_name("handleEvent(event:)")));
+- (void)registerListeners __attribute__((swift_name("registerListeners()")));
 @property (readonly) id<MealzcoreKotlinx_coroutines_coreMutableStateFlow> isAddingRemainingIngredients __attribute__((swift_name("isAddingRemainingIngredients")));
 @property (readonly) id<MealzcoreKotlinx_coroutines_coreMutableStateFlow> priceOfProductsInBasket __attribute__((swift_name("priceOfProductsInBasket")));
 @property (readonly) id<MealzcoreKotlinx_coroutines_coreMutableStateFlow> priceOfRemainingProducts __attribute__((swift_name("priceOfRemainingProducts")));
