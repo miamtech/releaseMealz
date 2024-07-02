@@ -4,7 +4,7 @@
   
   <groupId>ai.mealz.core</groupId>
   <artifactId>mealz-core</artifactId>
-  <version>4.1.0-alpha-2</version>
+  <version>4.1.0-alpha</version>
   
   <packaging>aar</packaging>
   
