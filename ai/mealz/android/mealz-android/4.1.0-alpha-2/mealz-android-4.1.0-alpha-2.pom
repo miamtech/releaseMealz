@@ -9,6 +9,11 @@
   <packaging>aar</packaging>
   
   <dependencies>
-    <!-- List any dependencies your library may have -->
+   <dependency>
+      <groupId>io.coil-kt</groupId>
+      <artifactId>coil-compose</artifactId>
+      <version>2.2.0</version>
+      <scope>api</scope>
+    </dependency>
   </dependencies>
 </project>
