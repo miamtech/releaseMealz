@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ai.mealz.android</groupId>
     <artifactId>mealz-android</artifactId>
-    <version>##VERSION##</version>
+    <version>4.1.0</version>
     <packaging>aar</packaging>
     <name>Mealz android</name>
     <dependencies>
         <dependency>
   <groupId>ai.mealz.core</groupId>
   <artifactId>mealz-core</artifactId>
-  <version>0.0.31</version>
+  <version>4.1.0</version>
   <scope>api</scope>
 </dependency>
 <dependency>
