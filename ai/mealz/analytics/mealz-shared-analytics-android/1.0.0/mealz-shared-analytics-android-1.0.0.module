@@ -1,0 +1,175 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mealz-shared-analytics/1.0.0/mealz-shared-analytics-1.0.0.module",
+    "group": "ai.mealz.analytics",
+    "module": "mealz-shared-analytics",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mealz-shared-analytics-release.aar",
+          "url": "mealz-shared-analytics-android-1.0.0.aar",
+          "size": 40487,
+          "sha512": "758a9ba8081b694ba296423ed3bd51b3cbae0dd3a109b3227f909d994625b8e7a1cc520aa686a7a61d1cdba8f54d97b2e29ecc56a3c6cc19a6529526fbb211d5",
+          "sha256": "c9d0c2e685f832a416a1cce21e740d1c818c7eba60559c26cfb26f62fdc944de",
+          "sha1": "0049d99d2611d57ce1ab1427feacbfdedba58b60",
+          "md5": "e909fc940ff7a1e57835240a6f65b677"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "mealz-shared-analytics-release.aar",
+          "url": "mealz-shared-analytics-android-1.0.0.aar",
+          "size": 40487,
+          "sha512": "758a9ba8081b694ba296423ed3bd51b3cbae0dd3a109b3227f909d994625b8e7a1cc520aa686a7a61d1cdba8f54d97b2e29ecc56a3c6cc19a6529526fbb211d5",
+          "sha256": "c9d0c2e685f832a416a1cce21e740d1c818c7eba60559c26cfb26f62fdc944de",
+          "sha1": "0049d99d2611d57ce1ab1427feacbfdedba58b60",
+          "md5": "e909fc940ff7a1e57835240a6f65b677"
+        }
+      ]
+    }
+  ]
+}
