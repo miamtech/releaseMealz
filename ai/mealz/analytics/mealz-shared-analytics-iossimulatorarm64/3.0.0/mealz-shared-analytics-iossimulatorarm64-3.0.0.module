@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mealz-shared-analytics/3.0.0/mealz-shared-analytics-3.0.0.module",
+    "group": "ai.mealz.analytics",
+    "module": "mealz-shared-analytics",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mealz-shared-analytics.klib",
+          "url": "mealz-shared-analytics-iossimulatorarm64-3.0.0.klib",
+          "size": 53567,
+          "sha512": "2d2ca1761984ba135e6d018b167e7e9f92886110af7c5a2a60cc928148d8a37de552309b7aa2d6e77b78585ae6060b17a553f2cd1600aa482dc7bcd71dc65a92",
+          "sha256": "9d9e42cf93b894c0226e2f4b641457d0192a34c80cfa9a063bf37dd1edc78b27",
+          "sha1": "300a363557929134d5e2b1c3153cc18acc2d5d0f",
+          "md5": "210c0ad52ca06cc08886f87fd6eb37d6"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mealz-shared-analytics-iossimulatorarm64-3.0.0-metadata.jar",
+          "url": "mealz-shared-analytics-iossimulatorarm64-3.0.0-metadata.jar",
+          "size": 4911,
+          "sha512": "2a3fe666c6ce526e265bee3b35ab640fa099ce1bb4bccbcce0ff5d204f18995a3016ccafbf33b2a991a919b3a563d2ed4d34f679cc0abfb4fd249fe6210a3c80",
+          "sha256": "ef520c24f781d11e4eff9bce2d030033322bba3379fd90f8c2e196b5bd34ca8c",
+          "sha1": "126b49aab20c5b02cb232a6ece63525b47bd5e44",
+          "md5": "eecbc1133bafc5747590ed59971027af"
+        }
+      ]
+    }
+  ]
+}

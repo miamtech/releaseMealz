@@ -1,0 +1,257 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.mealz.analytics",
+    "module": "mealz-shared-analytics",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mealz-shared-analytics-3.0.0.jar",
+          "url": "mealz-shared-analytics-3.0.0.jar",
+          "size": 11144,
+          "sha512": "51a3384d77eec033bdf64adb9ed9811273ba0fbefd51c08d553882b43faf5454d63105660c1823d0570131590b24110e64c47f33aaf53ee47c576d7e61957a2f",
+          "sha256": "7c8bdf0c160aaf01a6a1f5e1e548ed9a21d73ff4eedc404af9bc28d9c1f527d3",
+          "sha1": "315e9c4489b6727d895a67bc063149030aa3fe7a",
+          "md5": "22298dc5f87b1e25f43d98a7dfb54392"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-android-debug/3.0.0/mealz-shared-analytics-android-debug-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-android-debug",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-android-debug/3.0.0/mealz-shared-analytics-android-debug-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-android-debug",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-android/3.0.0/mealz-shared-analytics-android-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-android",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-android/3.0.0/mealz-shared-analytics-android-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-android",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-iosarm64/3.0.0/mealz-shared-analytics-iosarm64-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-iosarm64",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-iosarm64/3.0.0/mealz-shared-analytics-iosarm64-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-iosarm64",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-iossimulatorarm64/3.0.0/mealz-shared-analytics-iossimulatorarm64-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-iossimulatorarm64",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-iossimulatorarm64/3.0.0/mealz-shared-analytics-iossimulatorarm64-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-iossimulatorarm64",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-iosx64/3.0.0/mealz-shared-analytics-iosx64-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-iosx64",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-iosx64/3.0.0/mealz-shared-analytics-iosx64-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-iosx64",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-js/3.0.0/mealz-shared-analytics-js-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-js",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../mealz-shared-analytics-js/3.0.0/mealz-shared-analytics-js-3.0.0.module",
+        "group": "ai.mealz.analytics",
+        "module": "mealz-shared-analytics-js",
+        "version": "3.0.0"
+      }
+    }
+  ]
+}
