@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+            <project xmlns="http://maven.apache.org/POM/4.0.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+              <modelVersion>4.0.0</modelVersion>
+              <groupId>ai.mealz.core</groupId>
+              <artifactId>mealz-core</artifactId>
+              <version>5.3.0-alpha2</version>
+              <packaging>aar</packaging>
+              <name>Mealz core</name>
+              <dependencies>
+                <!-- Automatically generated dependencies -->
+                
+                    <dependency>
+                      <groupId>io.ktor</groupId>
+                      <artifactId>ktor-client-android</artifactId>
+                      <version>2.3.10</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+
+                    <dependency>
+                      <groupId>dev.icerock.moko</groupId>
+                      <artifactId>resources-android</artifactId>
+                      <version>0.24.1</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+
+                    <dependency>
+                      <groupId>org.jetbrains.kotlinx</groupId>
+                      <artifactId>kotlinx-coroutines-android</artifactId>
+                      <version>1.8.0</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+
+                    <dependency>
+                      <groupId>org.jetbrains.kotlin</groupId>
+                      <artifactId>kotlin-test-junit</artifactId>
+                      <version>1.9.22</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+
+                    <dependency>
+                      <groupId>junit</groupId>
+                      <artifactId>junit</artifactId>
+                      <version>4.13.2</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+
+                    <dependency>
+                      <groupId>androidx.test.ext</groupId>
+                      <artifactId>junit</artifactId>
+                      <version>1.1.5</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+
+                    <dependency>
+                      <groupId>org.robolectric</groupId>
+                      <artifactId>robolectric</artifactId>
+                      <version>4.12.1</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+                <dependency>
+                      <groupId>org.jetbrains.kotlinx</groupId>
+                      <artifactId>kotlinx-coroutines-core</artifactId>
+                      <version>1.8.0</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>org.jetbrains.kotlinx</groupId>
+                      <artifactId>kotlinx-datetime</artifactId>
+                      <version>0.4.0</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>io.ktor</groupId>
+                      <artifactId>ktor-client-core</artifactId>
+                      <version>2.3.10</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>io.ktor</groupId>
+                      <artifactId>ktor-client-encoding</artifactId>
+                      <version>2.3.10</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>io.ktor</groupId>
+                      <artifactId>ktor-serialization-kotlinx-json</artifactId>
+                      <version>2.3.10</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>io.ktor</groupId>
+                      <artifactId>ktor-client-content-negotiation</artifactId>
+                      <version>2.3.10</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>io.ktor</groupId>
+                      <artifactId>ktor-client-logging</artifactId>
+                      <version>2.3.10</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>dev.icerock.moko</groupId>
+                      <artifactId>resources</artifactId>
+                      <version>0.24.1</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>org.jetbrains.kotlinx</groupId>
+                      <artifactId>kotlinx-coroutines-test</artifactId>
+                      <version>1.8.0</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>app.cash.turbine</groupId>
+                      <artifactId>turbine</artifactId>
+                      <version>0.12.1</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>org.jetbrains.kotlin</groupId>
+                      <artifactId>kotlin-test-common</artifactId>
+                      <version>1.9.22</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>org.jetbrains.kotlin</groupId>
+                      <artifactId>kotlin-test-annotations-common</artifactId>
+                      <version>1.9.22</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>org.slf4j</groupId>
+                      <artifactId>slf4j-nop</artifactId>
+                      <version>1.7.36</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>ai.mealz.analytics</groupId>
+                      <artifactId>mealz-shared-analytics</artifactId>
+                      <version>4.0.0</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+              </dependencies>
+            </project>
