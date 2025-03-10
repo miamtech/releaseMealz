@@ -11,7 +11,7 @@
   <artifactId>miamcoursesuui</artifactId>
   <version>5.7.0</version>
   <packaging>aar</packaging>
-  <name>miamCoursesUUI</name>
+  <name>miamcoursesuui</name>
   <description>Miam SDK is a component override by courses u ui</description>
   <licenses>
     <license>
