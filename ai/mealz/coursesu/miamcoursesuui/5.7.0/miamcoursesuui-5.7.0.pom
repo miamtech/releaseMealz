@@ -13,7 +13,7 @@
   <packaging>aar</packaging>
   <name>miamCoursesUUI</name>
   <description>Miam SDK is a component override by courses u ui</description>
-  <url>https://github.com/miamtech/MiamCoursesUUI</url>
+  <url>https://github.com/miamtech/miamcoursesuui</url>
   <licenses>
     <license>
       <name>Miam License</name>
