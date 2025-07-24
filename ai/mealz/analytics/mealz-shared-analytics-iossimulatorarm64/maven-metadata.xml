@@ -3,11 +3,11 @@
   <groupId>ai.mealz.analytics</groupId>
   <artifactId>mealz-shared-analytics-iossimulatorarm64</artifactId>
   <versioning>
-    <latest>4.3.1</latest>
-    <release>4.3.1</release>
+    <latest>4.4.1</latest>
+    <release>4.4.1</release>
     <versions>
-      <version>4.3.1</version>
+      <version>4.4.1</version>
     </versions>
-    <lastUpdated>20250617121856</lastUpdated>
+    <lastUpdated>20250724132930</lastUpdated>
   </versioning>
 </metadata>
