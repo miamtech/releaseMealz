@@ -5,7 +5,7 @@
               <modelVersion>4.0.0</modelVersion>
               <groupId>ai.mealz.core</groupId>
               <artifactId>mealz-core</artifactId>
-              <version>5.10.1</version>
+              <version></version>
               <packaging>aar</packaging>
               <name>Mealz core</name>
               <dependencies>
