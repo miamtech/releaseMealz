@@ -10,7 +10,7 @@
         <dependency>
   <groupId>ai.mealz.core</groupId>
   <artifactId>mealz-core</artifactId>
-  <version>5.9.0</version>
+  <version>5.9.0-hotfix1</version>
   <scope>api</scope>
 </dependency>
 <dependency>
