@@ -42,6 +42,30 @@
                       <scope>api</scope>
                     </dependency>
                     
+
+                    <dependency>
+                      <groupId>io.insert-koin</groupId>
+                      <artifactId>koin-android</artifactId>
+                      <version>3.5.3</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+
+                    <dependency>
+                      <groupId>androidx.webkit</groupId>
+                      <artifactId>webkit</artifactId>
+                      <version>1.14.0</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+
+                    <dependency>
+                      <groupId>org.jetbrains.kotlinx</groupId>
+                      <artifactId>atomicfu</artifactId>
+                      <version>0.27.0</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
                 <dependency>
                       <groupId>org.jetbrains.kotlinx</groupId>
                       <artifactId>kotlinx-coroutines-core</artifactId>
@@ -102,6 +126,13 @@
                       <groupId>ai.mealz.uikit</groupId>
                       <artifactId>shared</artifactId>
                       <version>0.1.0</version>
+                      <scope>api</scope>
+                    </dependency>
+                    
+<dependency>
+                      <groupId>io.insert-koin</groupId>
+                      <artifactId>koin-core</artifactId>
+                      <version>3.5.3</version>
                       <scope>api</scope>
                     </dependency>
                     
