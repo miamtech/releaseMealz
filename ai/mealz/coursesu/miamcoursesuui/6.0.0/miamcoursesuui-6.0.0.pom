@@ -34,6 +34,12 @@
   </scm>
   <dependencies>
     <dependency>
+      <groupId>ai.mealz.core</groupId>
+      <artifactId>mealz-core</artifactId>
+      <version>6.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>ai.mealz.android</groupId>
       <artifactId>mealz-android</artifactId>
       <version>6.0.0</version>
